@@ -27,3 +27,5 @@ jobs:
       - run: aws sts get-caller-identity # just an example. why not deploy something?
 
       - run: aws s3 ls
+
+      - run: aws cloudformation list-stacks
