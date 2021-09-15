@@ -28,4 +28,4 @@ jobs:
 
       - run: aws s3 ls
 
-      - run: aws cloudformation list-stacks
+   
