@@ -32,6 +32,7 @@ app.get("/orders", function (req, res) {
   ]);
 });
 
+// Defining get request at '/users' route
 app.get("/users", function (req, res) {
   res.json([
     {
