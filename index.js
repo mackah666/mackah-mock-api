@@ -8,28 +8,43 @@ app.get("/", function (req, res) {
     number: 1,
   });
 });
-// Really must add another endpoint before the demo
+
 // Defining get request at '/multiple' route
 app.get("/orders", function (req, res) {
   res.json([
     {
-		"id": 1,
-		"items": [
-		  {
-			"name": "burger",
-			"quantity": 2,
-			"value": 99,
-			sides: [
-				{
-					name: 'fries',
-					supersize: true,
-					quantity: 2
-					
-				}
-			]
-		  }
-		]
-	  }
+      id: 1,
+      items: [
+        {
+          name: "burger",
+          quantity: 2,
+          value: 2,
+          sides: [
+            {
+              name: "fries",
+              supersize: true,
+              quantity: 19,
+            },
+          ],
+        },
+      ],
+    },
+  ]);
+});
+
+app.get("/users", function (req, res) {
+  res.json([
+    {
+      id: 1,
+      items: [
+        {
+          name: "michael",
+          location: "manchester",
+          status: "member",
+          age: 50,
+        },
+      ],
+    },
   ]);
 });
 
