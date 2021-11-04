@@ -23,7 +23,7 @@ app.get("/orders", function (req, res) {
             {
               name: "fries",
               supersize: true,
-              quantity: 19,
+              quanity: 1000,
             },
           ],
         },
