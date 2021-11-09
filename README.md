@@ -9,5 +9,5 @@ npm install
 
 nodemon
 ```
-To the api which will running at http://localhost:3000/orders
+The api will be up and running at http://localhost:3000/orders
 
