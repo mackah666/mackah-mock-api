@@ -16,6 +16,9 @@ on:
         description: Include 🎉🤣 emojis
       environment:
         type: environment
+        options: 
+        - development
+        - production
 
 jobs:
   greet:
