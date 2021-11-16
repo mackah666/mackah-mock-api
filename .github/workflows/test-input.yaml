@@ -14,11 +14,11 @@ on:
       use-emoji:
         type: boolean
         description: Include 🎉🤣 emojis
-      environment:
-        type: environment
-        options: 
-        - development
-        - production
+      # environment:
+      #   type: environment
+      #   options: 
+      #   - development
+      #   - production
 
 jobs:
   greet:
